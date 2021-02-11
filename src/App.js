@@ -5,7 +5,7 @@ import MyTitleMessage from "./components/title-message/title-message";
 import About from "./pages/about/about";
 import Skills from "./pages/skills/skills";
 import Container from "react-bootstrap/Container";
-// import TimeLine from "./components/projects-timeline/projects-timeline.component";
+import TimeLine from "./components/timeline/timeline";
 import Experience from "./pages/experience/experience";
 import Fade from "react-reveal/Fade";
 import Slide from "react-reveal/Slide";
@@ -62,7 +62,7 @@ const App = () => {
       <Container className="container-box rounded">
         <Slide bottom duration={500}>
           <hr />
-          {/* <TimeLine /> */}
+          <TimeLine />
         </Slide>
       </Container>
       <Container className="container-box rounded">

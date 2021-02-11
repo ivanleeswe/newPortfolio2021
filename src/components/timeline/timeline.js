@@ -29,7 +29,7 @@ import L_GIT from "../../assets/img/skills/github-api.svg";
 import L_MATERIALUI from "../../assets/img/skills/material-ui-1.svg";
 
 
-import "./projects-timeline.styles.css";
+import "./timeline.styles.css";
 
 const TimeLine = () => {
   return (
