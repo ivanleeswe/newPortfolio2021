@@ -3,7 +3,7 @@ import MyNavbar from "./components/navbar/navbar";
 import MyCarousal from "./components/carousel/carousel";
 import MyTitleMessage from "./components/title-message/title-message";
 import About from "./pages/about/about";
-// import Skills from "./pages/skills/skills.component";
+import Skills from "./pages/skills/skills";
 import Container from "react-bootstrap/Container";
 // import TimeLine from "./components/projects-timeline/projects-timeline.component";
 // import Experience from "./pages/experience/experience.component";
@@ -47,7 +47,7 @@ const App = () => {
       <Container className="container-box rounded">
         <Slide bottom duration={500}>
           <hr />
-          {/* <Skills /> */}
+          <Skills />
         </Slide>
       </Container>
       <div>
