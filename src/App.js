@@ -9,10 +9,10 @@ import TimeLine from "./components/timeline/timeline";
 import Experience from "./pages/experience/experience";
 import Fade from "react-reveal/Fade";
 import Slide from "react-reveal/Slide";
-// import ContactForm from "./pages/contact-form/contact-form.component";
+import ContactForm from "./pages/contact/contact";
 import { Parallax } from "react-parallax";
-// import Particles from "react-particles-js";
-// import { particlesOptions } from "./particlesOptions";
+import Particles from "react-particles-js";
+import { particlesOptions } from "./particlesOptions";
 // import FooterPanel from "./components/footer/footer.component";
 
 import "./App.css";
@@ -23,10 +23,10 @@ const App = () => {
       <MyCarousal />
       <MyTitleMessage />
       <MyNavbar />
-      {/* <Particles
+      <Particles
         className="particles particles-box"
         params={particlesOptions}
-      /> */}
+      />
 
       <div>
         <Parallax
@@ -68,7 +68,7 @@ const App = () => {
       <Container className="container-box rounded">
         <Fade duration={500}>
           <hr />
-          {/* <ContactForm /> */}
+          <ContactForm />
         </Fade>
       </Container>
 

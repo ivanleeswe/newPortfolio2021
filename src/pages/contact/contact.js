@@ -3,7 +3,7 @@ import Jumbotron from "react-bootstrap/Jumbotron";
 import Button from "react-bootstrap/Button";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
-import "./contact-form.styles.css";
+import "./contact.styles.css";
 
 const ContactForm = () => {
   return (
@@ -37,7 +37,7 @@ const ContactForm = () => {
             <div className="m-2">
               <a href="https://www.youtube.com/user/MrAkjha96/" target="_blank" rel="noopener noreferrer">
                 <Button id="youtube-btn" variant="outline-info" title="Lets code together!">
-                <i class="fab fa-youtube"></i> Youtube
+                <i className="fab fa-youtube"></i> Youtube
                 </Button>
               </a>
             </div>
