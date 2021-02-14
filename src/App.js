@@ -1,6 +1,6 @@
 import React from "react";
 import MyNavbar from "./components/navbar/navbar";
-import MyCarousal from "./components/carousel/carousel";
+import MainBlock from "./components/mainblock/mainblock";
 import MyTitleMessage from "./components/title-message/title-message";
 import About from "./pages/about/about";
 import Skills from "./pages/skills/skills";
@@ -11,25 +11,21 @@ import Fade from "react-reveal/Fade";
 import Slide from "react-reveal/Slide";
 import ContactForm from "./pages/contact/contact";
 import { Parallax } from "react-parallax";
-import Particles from "react-particles-js";
-import { particlesOptions } from "./particlesOptions";
-// import FooterPanel from "./components/footer/footer.component";
 
 import "./App.css";
 
 const App = () => {
   return (
-    <div className="App" style={{ position: "relative" }}>
-      <MyCarousal />
-      <MyTitleMessage />
+    <div style={{ position: "relative" }}>
       <MyNavbar />
-      <Particles
-        className="particles particles-box"
-        params={particlesOptions}
-      />
-
+      <MainBlock />
+      <MyTitleMessage />
+      <About />
+      <Skills />
+  
+{/* 
       <div>
-        <Parallax
+        <div
           blur={{ min: -30, max: 30 }}
           bgImage={require("./assets/img/parallex/background.webp")}
           bgImageAlt=""
@@ -42,7 +38,7 @@ const App = () => {
               </Fade>
             </Container>
           </div>
-        </Parallax>
+        </div>
       </div>
       <Container className="container-box rounded">
         <Slide bottom duration={500}>
@@ -72,8 +68,7 @@ const App = () => {
         </Fade>
       </Container>
 
-      <hr />
-      {/* <FooterPanel /> */}
+      <hr /> */}
     </div>
   );
 };
