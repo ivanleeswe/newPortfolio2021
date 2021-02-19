@@ -22,6 +22,9 @@ const App = () => {
       <MyTitleMessage />
       <About />
       <Skills />
+      <Experience />
+      <TimeLine />
+      <ContactForm />
   
 {/* 
       <div>

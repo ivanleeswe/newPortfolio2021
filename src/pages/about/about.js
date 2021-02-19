@@ -11,7 +11,7 @@ const About = () => {
   return (
     <div id="about">
       <div className="about">
-        <h1 className="pt-3 text-center font-details pb-3">ABOUT ME</h1>
+        <h1 className="text-center" style={{color:"white"}}>ABOUT <span style={{color:"aqua"}}>ME</span></h1>
         <Container>
           <Row className="pt-3 pb-5 align-items-center">
             <Col xs={12} md={6}>
@@ -20,8 +20,8 @@ const About = () => {
               </Row>
             </Col>
             <Col xs={12} md={6}>
-              <Row className=" align-items-start p-2 my-details rounded">
-                Hi there! I am <strong>&nbsp;Anand Kumar Jha</strong>
+              <Row className=" align-items-start p-2 rounded">
+                Hi there! I am <strong style={{color:"yellow"}}>&nbsp;Ivan Lee</strong>
                 <br />A passionate programmer and a Coach, born and brought up in India. I am a Full Stack Web Developer with React.js, Redux, Express.js, Node.js, and PostgreSQL as my tech stack.
                 <br />
                 In 2019, I successfully completed my Engineering with specialization in 'Electronics and Telecommunication'.

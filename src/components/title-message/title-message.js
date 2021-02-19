@@ -14,7 +14,7 @@ const MyTitleMessage = styled.h1`
     font-size: 1.25em;
   }
   div {
-    color: ${props => props.theme.textColor};
+    color: white;
     text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4);
     font-weight: 100;
     letter-spacing: 7px;
@@ -33,15 +33,19 @@ const TitleMessage = () => (
     <div className="titleMessage">
       <div className="heading">
         <div className="text-center">
-          <strong>Ivan Lee's Portfolio</strong>
-          <Typewriter
-            options={{
-              strings: ["Welcome","Thank you for visiting"],
-              autoStart: true,
-              loop: false,
-              delay: 100
-            }}
-          />
+          <strong style={{color:"white"}}>Ivan Lee's <span style={{color:"aqua"}}>Portfolio</span></strong>
+          <br/>
+          <strong style={{color:"white", fontSize: "20px"}}> Software Engineer <span style={{color:"aqua"}}> | </span> Web Developer <span style={{color:"aqua"}}> | </span> Programmer</strong>
+          <div style={{marginTop: "100px", fontSize: "20px"}}>
+            <Typewriter
+              options={{
+                strings: ["Welcome","Thank you for visiting"],
+                autoStart: true,
+                loop: true,
+                delay: 100
+              }}
+            />
+          </div>
         </div>
         <div className="sub">
           
