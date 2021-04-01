@@ -13,7 +13,7 @@ import "./skills.styles.css";
 const Skills = () => {
   return (
     <div className="pt-3 pb-3" id="skills">
-      <h1 className="text-center font-details-b pb-4" style={{paddingTop:"100px"}}>TECH <span style={{color:"aqua"}}>SKILLS</span></h1>
+      <h1 className="text-center font-details-b pb-4" style={{paddingTop:"60px"}}>TECH <span style={{color:"aqua"}}>SKILLS</span></h1>
       <CardDeck style={{justifyContent:"center"}}>
         <Row className="d-flex justify-content-around">
           {/* Programming Languages */}
@@ -73,27 +73,8 @@ const Skills = () => {
 
 
           <Col md={4}>
-            {/* Hosting Platforms */}
             <Card className="focus mt-2 mb-2 ">
-              <Card.Body>
-                <Card.Title className="text-center  card-title">Hosting Platforms</Card.Title>
-                <hr />
-                <Card.Text className="card-text d-flex justify-content-start flex-column">
-                  {skills.hostingPlatforms.map((skill, index) => (
-                    <span className="p-2" key={index}>
-                      <a className="text-dark text-decoration-none" href={skill.link} target="_blank" rel="noopener noreferrer">
-                        <Image src={skill.imgSrc} alt={skill.imgAltText} rounded className="image-style m-1"></Image> {skill.skillName}
-                      </a>
-                    </span>
-                  ))}
-                </Card.Text>
-              </Card.Body>
-            </Card>
-          </Col>
 
-          {/* Frontend */}
-          <Col md={4}>
-            <Card className="focus mt-2 mb-2">
               <Card.Body>
                 <Card.Title className="text-center  card-title">Frontend</Card.Title>
                 <hr />
@@ -108,19 +89,40 @@ const Skills = () => {
                 </Card.Text>
               </Card.Body>
             </Card>
+          </Col>
+
+
+          <Col md={4}>
+            <Card className="focus mt-2 mb-2">
+               <Card.Body>
+                <Card.Title className="text-center  card-title">Hosting Platforms</Card.Title>
+                <hr />
+                <Card.Text className="card-text d-flex justify-content-start flex-column">
+                  {skills.hostingPlatforms.map((skill, index) => (
+                    <span className="p-2" key={index}>
+                      <a className="text-dark text-decoration-none" href={skill.link} target="_blank" rel="noopener noreferrer">
+                        <Image src={skill.imgSrc} alt={skill.imgAltText} rounded className="image-style m-1"></Image> {skill.skillName}
+                      </a>
+                    </span>
+                  ))}
+                </Card.Text>
+              </Card.Body>
+            </Card>
 
             {/* Version Control */}
 
             <Card className="focus mt-2 mb-2">
               <Card.Body>
-                <Card.Title className="text-center  card-title">Version Control</Card.Title>
+                <Card.Title className="text-center  card-title">Others</Card.Title>
                 <hr />
                 <Card.Text className="card-text d-flex justify-content-start flex-column">
-                  <span className="p-2">
-                    <a className="text-dark text-decoration-none" href={skills.versionControl[0].link} target="_blank" rel="noopener noreferrer">
-                      <Image src={skills.versionControl[0].imgSrc} alt={skills.versionControl[0].imgAltText} rounded className="image-style m-1"></Image> {skills.versionControl[0].skillName}
-                    </a>
-                  </span>
+                {skills.others.map((skill, index) => (
+                    <span className="p-2" key={index}>
+                      <a className="text-dark text-decoration-none" href={skill.link} target="_blank" rel="noopener noreferrer">
+                        <Image src={skill.imgSrc} alt={skill.imgAltText} rounded className="image-style m-1"></Image> {skill.skillName}
+                      </a>
+                    </span>
+                  ))}
                 </Card.Text>
               </Card.Body>
             </Card>

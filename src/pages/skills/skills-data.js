@@ -24,70 +24,59 @@ import L_TYPESCRIPT from "../../assets/img/skills/typescript.svg";
 import L_GOLANG from "../../assets/img/skills/go-6.svg";
 import L_PYTHON from "../../assets/img/skills/python.svg";
 
+import L_STORYBOOK from "../../assets/img/skills/storybook-1.svg";
+import L_MYSQL from "../../assets/img/skills/mysql-5.svg";
+import L_JQUERY from "../../assets/img/skills/jquery-1.svg";
+import L_FIREBASE from "../../assets/img/skills/firebase-1.svg";
+import L_FIGMA from "../../assets/img/skills/figma-1.svg";
+
+import L_DOCKER from "../../assets/img/skills/docker.svg";
+import L_CASSANDRA from "../../assets/img/skills/cassandra.svg";
+import L_AWS from "../../assets/img/skills/aws-2.svg";
+
 export const skills = {
   frontend: [
     {
-      link: "https://en.wikipedia.org/wiki/HTML5",
-      imgAltText: "HTML 5",
-      imgSrc: L_HTML5,
-      skillName: "HTML5",
-    },
-    {
-      link: "https://medium.com/beginners-guide-to-mobile-web-development/whats-new-in-css-3-dcd7fa6122e1",
-      imgAltText: "CSS 3",
-      imgSrc: L_CSS3,
-      skillName: "CSS3",
-    },
-    {
-      link: "https://www.javascript.com/",
-      imgAltText: "JavaScript",
-      imgSrc: L_JAVASCRIPT,
-      skillName: "JavaScript",
-    },
-    {
-      link: "https://sass-lang.com/",
-      imgAltText: "Sass",
-      imgSrc: L_SASS,
-      skillName: "Sass",
-    },
-    {
-      link: "https://getbootstrap.com/",
-      imgAltText: "Bootstrap",
-      imgSrc: L_BOOTSTRAP,
-      skillName: "Bootstrap",
-    },
-    {
-      link: "https://reactjs.org/",
       imgAltText: "React JS",
       imgSrc: L_REACT,
       skillName: "React JS",
     },
     {
-      link: "https://redux.js.org/",
       imgAltText: "Redux",
       imgSrc: L_REDUX,
       skillName: "Redux",
     },
     {
-      link: "https://reacttraining.com/react-router/",
+      imgAltText: "HTML 5",
+      imgSrc: L_HTML5,
+      skillName: "HTML5",
+    },
+    {
+      imgAltText: "CSS 3",
+      imgSrc: L_CSS3,
+      skillName: "CSS3",
+    },
+    {
+      imgAltText: "Sass",
+      imgSrc: L_SASS,
+      skillName: "Sass",
+    },
+    {
+      imgAltText: "Bootstrap",
+      imgSrc: L_BOOTSTRAP,
+      skillName: "Bootstrap",
+    },
+    {
       imgAltText: "React Router",
       imgSrc: L_REACT_ROUTER,
       skillName: "React Router",
     },
     {
-      link: "https://material-ui.com/",
       imgAltText: "Material-UI",
       imgSrc: L_MATERIALUI,
       skillName: "Material-UI",
     },
     {
-      link: "https://react-bootstrap.github.io/",
-      imgAltText: "React Bootstrap",
-      imgSrc: L_REACT_BOOTSTRAP,
-      skillName: "React Bootstrap",
-    },
-    {
-      link: "https://styled-components.com/",
       imgAltText: "styled-components",
       imgSrc: L_STYLED_COMPONENTS,
       skillName: "styled-components",
@@ -97,13 +86,11 @@ export const skills = {
 
   backend: [
     {
-      link: "https://nodejs.org/en/",
       imgAltText: "Node.js",
       imgSrc: L_NODE_JS,
       skillName: "Node.js",
     },
     {
-      link: "https://expressjs.com/",
       imgAltText: "Express",
       imgSrc: L_EXPRESS,
       skillName: "Express",
@@ -111,21 +98,23 @@ export const skills = {
   ],
   hostingPlatforms: [
     {
-      link: "https://pages.github.com/",
       imgAltText: "GitHub Pages",
       imgSrc: L_GITHUB_PAGES,
       skillName: "GitHub Pages",
     },
+    {
+      imgAltText: "Heroku",
+      imgSrc: L_HEROKU,
+      skillName: "Heroku",
+    },
   ],
   programmingLanguages: [
     {
-      link: "https://www.javascript.com/",
       imgAltText: "JavaScript",
       imgSrc: L_JAVASCRIPT,
       skillName: "JavaScript",
     },
     {
-      link: "https://www.typescriptlang.org/",
       imgAltText: "TypeScript",
       imgSrc: L_TYPESCRIPT,
       skillName: "TypeScript",
@@ -133,24 +122,56 @@ export const skills = {
   ],
   databases: [
     {
-      link: "https://www.postgresql.org/",
       imgAltText: "PostgreSQL",
       imgSrc: L_POSTGRESQL,
       skillName: "PostgreSQL",
     },
     {
-      link: "https://www.mongodb.com/",
       imgAltText: "MongoDB",
       imgSrc: L_MONGODB,
       skillName: "MongoDB",
     },
-  ],
-  versionControl: [
     {
-      link: "https://git-scm.com/",
+      imgAltText: "MySQL",
+      imgSrc: L_MYSQL,
+      skillName: "MySQL",
+    },
+    {
+      imgAltText: "Firebase",
+      imgSrc: L_FIREBASE,
+      skillName: "Firebase",
+    },
+    {
+      imgAltText: "Cassandra",
+      imgSrc: L_CASSANDRA,
+      skillName: "Cassandra",
+    },
+  ],
+  others: [
+    {
       imgAltText: "GIT",
       imgSrc: L_GIT,
       skillName: "GIT",
+    },
+    {
+      imgAltText: "Storybook",
+      imgSrc: L_STORYBOOK,
+      skillName: "Storybook",
+    },
+    {
+      imgAltText: "Figma",
+      imgSrc: L_FIGMA,
+      skillName: "Figma",
+    },
+    {
+      imgAltText: "Docker",
+      imgSrc: L_DOCKER,
+      skillName: "Docker",
+    },
+    {
+      imgAltText: "AWS",
+      imgSrc: L_AWS,
+      skillName: "AWS",
     },
   ],
 };
