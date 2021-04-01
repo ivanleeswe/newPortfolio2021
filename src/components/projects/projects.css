@@ -5,3 +5,24 @@
   grid-template-columns: auto auto auto;
   color: #3dfffc;
 }
+
+.text {
+  color: #3dfffc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.link {
+  color: yellow;
+  align-items: center;
+}
+
+.techStack {
+  text-align: center;
+}
+
+.description {
+  color: white
+
+}

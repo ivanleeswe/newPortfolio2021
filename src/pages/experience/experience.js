@@ -8,7 +8,7 @@ import "./experience.styles.css";
 
 const Experience = () => {
   return (
-    <div id="experience" style={{paddingTop:"60px"}}>
+    <div id="experience" style={{paddingTop:"40px"}}>
       <h1 className="pt-3 text-center font-details-b pb-3">EXPER<span  style={{color:"yellow"}} >IENCE</span></h1>
       <Jumbotron className="jumbo-style" >
         <Container >

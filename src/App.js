@@ -9,8 +9,6 @@ import Experience from "./pages/experience/experience";
 import ContactForm from "./pages/contact/contact";
 import Projects from "./components/projects/projects"
 
-import "./App.css";
-
 const App = () => {
   return (
     <div style={{ position: "relative" }}>
