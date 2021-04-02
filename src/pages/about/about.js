@@ -22,15 +22,8 @@ const About = () => {
             <Col xs={12} md={6}>
               <Row className=" align-items-start p-2 rounded">
                 Hi there! I am <strong style={{color:"yellow"}}>&nbsp;Ivan Lee</strong>
-                <br />A passionate programmer and a Coach, born and brought up in India. I am a Full Stack Web Developer with React.js, Redux, Express.js, Node.js, and PostgreSQL as my tech stack.
-                <br />
-                In 2019, I successfully completed my Engineering with specialization in 'Electronics and Telecommunication'.
-                <br />
-                Working with the clients, my goal is always driven towards providing amazing experience with the best level of quality and service to them.
-                <br />
-                Along with that, I also help people as a COACH on their journey of becoming a professional programmer. 
-                <br />I love learning about new technologies, what problems are they solving and How can I use them to build better and scalable products.
-                <br /> <br />
+                <br />I can't believe that it took me so long to pursue my passion in software engineering. I eat, shower, and sleep thinking about code. I can't stop! I am a freelancer and part of a software engineer team for a non-profit organization called ShelterTech. I am always either building an application, learning and refining my skills, or solving data structure and algorithm problems. Currently, I am looking for the next step of my career, which is be a software engineer for an amazing company. Please browse around my portfolio and if you like what you see, please shoot me a mesage and let's chat!
+
                 <Col className="d-flex justify-content-center flex-wrap">
                   <div>
                     <a href="#contact">
@@ -40,21 +33,21 @@ const About = () => {
                     </a>
                   </div>
                   <div>
-                    <a href="https://drive.google.com/file/d/1Snbq3x4Itk_ZN4c8J96aNdp4SunXR08Y/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                    <a href="https://drive.google.com/file/d/1I-pR0asIhhuEVON0mFSVJ7yAXxG3nveJ/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                       <Button className="m-2" variant="outline-success">
                         My Resume
                       </Button>
                     </a>
                   </div>
                   <div>
-                    <a href="https://github.com/akjha96" target="_blank" rel="noopener noreferrer">
+                    <a href="https://github.com/ivanleeswe" target="_blank" rel="noopener noreferrer">
                       <Button className="m-2" variant="outline-dark">
                         GitHub
                       </Button>
                     </a>
                   </div>
                   <div>
-                    <a href="https://www.linkedin.com/in/anand-kumar-jha-745798a4/" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.linkedin.com/in/ivanleeswe" target="_blank" rel="noopener noreferrer">
                       <Button className="m-2" variant="outline-info">
                         LinkedIn
                       </Button>
