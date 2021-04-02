@@ -22,9 +22,9 @@ const About = () => {
             <Col xs={12} md={6}>
               <Row className=" align-items-start p-2 rounded">
                 Hi there! I am <strong style={{color:"yellow"}}>&nbsp;Ivan Lee</strong>
-                <br />I can't believe that it took me so long to pursue my passion in software engineering. I eat, shower, and sleep thinking about code. I can't stop! I am a freelancer and part of a software engineer team for a non-profit organization called ShelterTech. I am always either building an application, learning and refining my skills, or solving data structure and algorithm problems. Currently, I am looking for the next step of my career, which is be a software engineer for an amazing company. Please browse around my portfolio and if you like what you see, please shoot me a mesage and let's chat!
+                <br />I can't believe that it took me so long to pursue my passion in software engineering. I eat, shower, and sleep thinking about code now and I can't stop! I am a freelancer and part of a software engineer team for a non-profit organization called ShelterTech. I am always either building an application, learning and refining my skills, or solving data structure and algorithm problems. Currently, I am looking for the next step of my career, which is to be a software engineer for an amazing company. Feel free to browse around my portfolio and if you like what you see, please shoot me a mesage and let's chat!
 
-                <Col className="d-flex justify-content-center flex-wrap">
+                <Col className="d-flex justify-content-center flex-wrap" style={{marginTop: "20px"}}>
                   <div>
                     <a href="#contact">
                       <Button className="m-2" variant="outline-primary">
