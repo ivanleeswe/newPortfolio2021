@@ -6,6 +6,21 @@
   color: #3dfffc;
 }
 
+@media all {
+  .grid-container {
+    grid-template-columns: auto;
+  }
+
+  .text {
+    flex-direction: column;
+    grid-template-columns: auto ;
+  }
+
+  .grid-item {
+    text-align: center;
+  }
+}
+
 .text {
   color: #3dfffc;
   display: flex;
